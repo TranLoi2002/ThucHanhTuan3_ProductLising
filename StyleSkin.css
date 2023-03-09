@@ -520,14 +520,56 @@
     gap:30px;
     margin-left: 20px;
     margin-top: 75px;
+    margin-bottom: 95px;
 }
 .flex-container13 a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.334);
+    font-size: 15px;
 }
 .flex-container13 .container1{
-    color: rgba(19, 185, 102, 0.927);
+    color: rgba(27, 173, 83, 0.86);
     background-color:rgba(244, 235, 235, 0.359);
     padding:10px;
     border-radius: 90px;
+}
+.flex-container14{
+    display: flex;
+    width: 1440px;
+    height: 350px;
+    background-color: rgba(4, 4, 11, 0.894);
+    font-family: Arial;
+    gap:60px;
+    padding-top: 80px;
+    padding-left: 133px;
+}
+
+.flex-container14 a{
+    text-decoration: none;
+    color:rgba(212, 215, 218, 0.965)
+}
+.flex-container14 .container2{
+    padding-left: 55px;
+    justify-content: center;
+}
+.flex-container14 .container3{
+    padding-right: 180px;
+    
+}
+.flex-container14 .container4 p{
+    font-size: 18px;
+}
+.flex-container14 .container4 .container4b{
+    display:flex;
+    color:rgba(212, 215, 218, 0.965);
+    align-items: center;
+}
+.flex-container14 .container4 .container4b li{
+    margin-left: 15px;
+}
+.flex-container14 .container4 .container4c .searchButton{
+    background-color: aliceblue;
+}
+.flex-container14 .container4 .container4c{
+    margin-bottom: 20px;
 }
