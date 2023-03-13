@@ -615,23 +615,27 @@
     background-color:  rgba(4, 4, 11, 0.176);
     color: rgba(212, 215, 218, 0.965);
     border-radius: 10px;
-    width: 300px;
+    width: 424px;
     height: 50px;
     border:1px solid rgba(212, 215, 218, 0.965);
+    position: absolute;
 }
 .flex-container14 .container4 .container4c .search .searchButton{
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px ;
     width: 124px;
-    height: 55px;
+    height: 54px;
     font-size: 17px;
     background-color: rgb(3, 157, 124);
     color:aliceblue;
     border:none;
+    margin-left: 305px;
+
 }
 .flex-container14 .container4 .container4c input::placeholder{
     color: rgba(212, 215, 218, 0.965);
     font-size: 17px;
-    padding-left: 20px;
+    padding-left: 50px;
 }
 
 
