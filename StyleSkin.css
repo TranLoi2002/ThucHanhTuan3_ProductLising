@@ -28,10 +28,20 @@
 }
 .flex-container1 .container3{
     display: flex;
-    width: 300px;
+    width: 400px;
     height: 40px;
     justify-content: center;
     align-items: center;
+}
+.flex-container1 .container3 input{
+    width: 195px;
+    height: 30px;
+    border:1.5px solid rgb(211, 211, 211);
+    border-radius: 5px;
+}
+.flex-container1 .container3 input::placeholder{
+    color:rgba(212, 215, 218, 0.965);
+    font-size: 15px;
 }
 .flex-container2 .container1{
     position: absolute;
@@ -67,7 +77,7 @@
     align-items: center;
     justify-content: center;
     border-right: 50px;
-    padding-right: 300px;
+    padding-right: 100px;
 }
 .flex-container3 .container2{
     display :flex;
@@ -75,6 +85,26 @@
     align-items: center;
     justify-content: center;
 }
+.flex-container3 .container2 input{
+    width: 250px;
+    height: 50px;
+    border:1.5px solid rgb(239, 224, 224);
+    border-radius: 5px;
+}
+.flex-container3 .container2 input::placeholder{
+    color:rgba(212, 215, 218, 0.965);
+    font-size: 20px;
+}
+.flex-container3 .container2 select{
+    width: 100px;
+    height: 52px;
+    border:none;
+    border-radius: 5px;
+    color:rgb(135, 134, 134);
+    font-size: 20px;
+    background-color: rgb(239, 224, 224);
+}
+
 .flex-container3 .container1 a{
     text-decoration: none;
     color: rgba(39, 155, 120, 0.795);
@@ -535,11 +565,11 @@
 }
 .flex-container14{
     display: flex;
-    width: 1440px;
-    height: 350px;
+    width: 1320px;
+    height: 355px;
     background-color: rgba(4, 4, 11, 0.894);
     font-family: Arial;
-    gap:60px;
+    gap:50px;
     padding-top: 80px;
     padding-left: 133px;
 }
@@ -549,11 +579,12 @@
     color:rgba(212, 215, 218, 0.965)
 }
 .flex-container14 .container2{
-    padding-left: 55px;
+    padding-left: 5px;
     justify-content: center;
+    padding-right: 10px;
 }
 .flex-container14 .container3{
-    padding-right: 180px;
+    padding-right: 190px;
     
 }
 .flex-container14 .container4 p{
@@ -573,3 +604,34 @@
 .flex-container14 .container4 .container4c{
     margin-bottom: 20px;
 }
+.flex-container14 .container1 select{
+    background-color:  rgba(4, 4, 11, 0.176);
+    color: rgba(212, 215, 218, 0.965);
+    width: 130px;
+    height: 38px;
+    border-radius: 5px;
+}
+.flex-container14 .container4 .container4c input{
+    background-color:  rgba(4, 4, 11, 0.176);
+    color: rgba(212, 215, 218, 0.965);
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    border:1px solid rgba(212, 215, 218, 0.965);
+}
+.flex-container14 .container4 .container4c .search .searchButton{
+    border-radius: 10px;
+    width: 124px;
+    height: 55px;
+    font-size: 17px;
+    background-color: rgb(3, 157, 124);
+    color:aliceblue;
+    border:none;
+}
+.flex-container14 .container4 .container4c input::placeholder{
+    color: rgba(212, 215, 218, 0.965);
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+
